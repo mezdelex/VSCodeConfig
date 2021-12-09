@@ -1,4 +1,5 @@
 # Visual Studio Code Config
+
 |:-:|:-:|
 |Resource|URI|
 |Visual Studio Config|[config](https://github.com/mezdelex/VSCodeConfig/blob/main/settings.json)|
