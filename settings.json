@@ -4,6 +4,12 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     // Format
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
     "[html]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
@@ -12,6 +18,9 @@
     },
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
     },
     "[jquery]": {
         "editor.defaultFormatter": "HookyQR.beautify"
@@ -22,11 +31,13 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    // Security
-    "security.workspace.trust.untrustedFiles": "open",
     // Terminal
     "powershell.integratedConsole.showOnStartup": false,
     "terminal.external.windowsExec": "wt",
+    // Security
+    "security.workspace.trust.untrustedFiles": "open",
+    // Dialog
+    "explorer.confirmDelete": false,
     // Appearance
     "workbench.colorTheme": "Gruvbox Material Dark",
     "workbench.iconTheme": "vscode-icons"
