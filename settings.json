@@ -3,7 +3,7 @@
     "editor.inlineSuggest.enabled": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    // Format
+    // Format 
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
@@ -38,7 +38,12 @@
     "security.workspace.trust.untrustedFiles": "open",
     // Dialog
     "explorer.confirmDelete": false,
+    // Font
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontLigatures": true,
     // Appearance
     "workbench.colorTheme": "Gruvbox Material Dark",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active"
 }
