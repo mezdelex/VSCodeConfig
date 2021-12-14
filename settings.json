@@ -25,6 +25,9 @@
     "[jquery]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
     "[json]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
