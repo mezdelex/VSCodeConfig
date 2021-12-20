@@ -42,7 +42,7 @@
     // Dialog
     "explorer.confirmDelete": false,
     // Font
-    "editor.fontFamily": "CaskaydiaCove NF",
+    "editor.fontFamily": "CaskaydiaCove NF, Cascadia Code",
     "editor.fontLigatures": true,
     // Appearance
     "workbench.colorTheme": "Gruvbox Material Dark",
