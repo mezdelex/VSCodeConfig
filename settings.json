@@ -48,5 +48,6 @@
     "workbench.colorTheme": "Gruvbox Material Dark",
     "workbench.iconTheme": "vscode-icons",
     "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active"
+    "editor.guides.bracketPairs": "active",
+    "editor.cursorSurroundingLines": 105
 }
