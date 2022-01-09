@@ -49,5 +49,6 @@
     "workbench.iconTheme": "vscode-icons",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
-    "editor.cursorSurroundingLines": 105
+    "editor.cursorSurroundingLines": 105,
+    "workbench.startupEditor": "none"
 }
