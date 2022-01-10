@@ -3,9 +3,13 @@
     "editor.inlineSuggest.enabled": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.languageServer": "Pylance",
     // Format 
+    "python.formatting.provider": "autopep8",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
+        "editor.defaultFormatter": "ms-python.python",
     },
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -19,11 +23,11 @@
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
-    },
     "[jquery]": {
         "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
     },
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
@@ -49,5 +53,6 @@
     "workbench.iconTheme": "vscode-icons",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
-    "editor.cursorSurroundingLines": 105
+    "editor.cursorSurroundingLines": 105,
+    "workbench.startupEditor": "none"
 }
