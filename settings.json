@@ -54,5 +54,5 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "editor.cursorSurroundingLines": 105,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
 }
