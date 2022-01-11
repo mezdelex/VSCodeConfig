@@ -1,0 +1,42 @@
+[
+    // Git
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+    },
+    // Movement
+    {
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 10
+        }
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 10
+        }
+    },
+    // View
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+shift+oem_plus",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "ctrl+shift+oem_minus",
+        "command": "workbench.action.decreaseViewSize"
+    }
+]
