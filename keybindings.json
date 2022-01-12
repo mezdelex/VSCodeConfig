@@ -12,6 +12,7 @@
         "when": "editorTextFocus",
         "args": {
             "to": "up",
+            "by": "wrappedLine",
             "value": 5
         }
     },
@@ -21,6 +22,7 @@
         "when": "editorTextFocus",
         "args": {
             "to": "down",
+            "by": "wrappedLine",
             "value": 5
         }
     },
@@ -31,6 +33,7 @@
         "when": "editorTextFocus",
         "args": {
             "to": "up",
+            "by": "wrappedLine",
             "value": 5,
             "select": true
         }
@@ -41,6 +44,7 @@
         "when": "editorTextFocus",
         "args": {
             "to": "down",
+            "by": "wrappedLine",
             "value": 5,
             "select": true
         }
