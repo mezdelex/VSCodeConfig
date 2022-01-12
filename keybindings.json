@@ -12,7 +12,6 @@
         "when": "editorTextFocus",
         "args": {
             "to": "up",
-            "by": "line",
             "value": 5
         }
     },
@@ -22,8 +21,28 @@
         "when": "editorTextFocus",
         "args": {
             "to": "down",
-            "by": "line",
             "value": 5
+        }
+    },
+    // Select
+    {
+        "key": "ctrl+shift+up",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "up",
+            "value": 5,
+            "select": true
+        }
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "down",
+            "value": 5,
+            "select": true
         }
     },
     // View
