@@ -20,6 +20,9 @@
     "[css]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
+    "[scss]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
     "[sass]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
