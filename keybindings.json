@@ -5,6 +5,12 @@
         "command": "workbench.view.scm",
         "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
     },
+    // Explorer
+    {
+        "key": "ctrl+k ctrl+n",
+        "command": "explorer.newFolder",
+        "when": "sidebarFocus"
+    },
     // Movement
     {
         "key": "ctrl+up",
