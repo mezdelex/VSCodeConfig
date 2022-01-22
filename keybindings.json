@@ -9,7 +9,6 @@
     {
         "key": "ctrl+k ctrl+n",
         "command": "explorer.newFolder",
-        "when": "sidebarFocus"
     },
     // Movement
     {
