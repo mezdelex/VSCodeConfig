@@ -61,5 +61,7 @@
     "editor.guides.bracketPairs": "active",
     "editor.cursorSurroundingLines": 105,
     "editor.lineNumbers": "relative",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
     "workbench.startupEditor": "none"
 }
