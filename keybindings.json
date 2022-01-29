@@ -9,6 +9,12 @@
     {
         "key": "ctrl+k ctrl+n",
         "command": "explorer.newFolder",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "sideBarFocus"
     },
     // Movement
     {
