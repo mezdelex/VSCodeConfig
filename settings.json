@@ -51,6 +51,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     // Dialog
     "explorer.confirmDelete": false,
+    "vsicons.dontShowNewVersionMessage": true,
     // Font
     "editor.fontFamily": "Delugia",
     "editor.fontLigatures": true,
