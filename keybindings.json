@@ -1,9 +1,9 @@
 [
-    // Git
+    // Workbench
     {
-        "key": "ctrl+shift+g",
-        "command": "workbench.view.scm",
-        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+        "key": "ctrl+k ctrl+w",
+        "command": "workbench.action.closeOtherEditors",
+        "when": "editorTextFocus"
     },
     // Explorer
     {
@@ -15,6 +15,12 @@
         "key": "ctrl+n",
         "command": "explorer.newFile",
         "when": "sideBarFocus"
+    },
+    // Git
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
     },
     // Movement
     {
