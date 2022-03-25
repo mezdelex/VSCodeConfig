@@ -66,6 +66,17 @@
             "select": true
         }
     },
+    // Transform
+    {
+        "key": "ctrl+shift+,",
+        "command": "editor.action.transformToUppercase",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+.",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorTextFocus"
+    },
     // View
     {
         "key": "ctrl+0",
