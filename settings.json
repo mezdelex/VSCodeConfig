@@ -64,5 +64,6 @@
     "editor.lineNumbers": "relative",
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "solid",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false
 }

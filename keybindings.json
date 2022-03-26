@@ -22,7 +22,7 @@
         "command": "workbench.view.scm",
         "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
     },
-    // Movement
+    // Move
     {
         "key": "ctrl+up",
         "command": "cursorMove",
@@ -65,6 +65,17 @@
             "value": 5,
             "select": true
         }
+    },
+    // Sort
+    {
+        "key": "ctrl+alt+,",
+        "command": "editor.action.sortLinesAscending",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+.",
+        "command": "editor.action.sortLinesDescending",
+        "when": "editorTextFocus"
     },
     // Transform
     {
