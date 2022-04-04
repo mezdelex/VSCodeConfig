@@ -95,11 +95,19 @@
     },
     {
         "key": "alt+pageup",
-        "command": "workbench.action.increaseViewSize"
+        "command": "workbench.action.increaseViewWidth"
     },
     {
         "key": "alt+pagedown",
-        "command": "workbench.action.decreaseViewSize"
+        "command": "workbench.action.decreaseViewWidth"
+    },
+    {
+        "key": "shift+alt+pageup",
+        "command": "workbench.action.increaseViewHeight"
+    },
+    {
+        "key": "shift+alt+pagedown",
+        "command": "workbench.action.decreaseViewHeight"
     },
     {
         "key": "ctrl+m",
