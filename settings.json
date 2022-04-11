@@ -2,14 +2,14 @@
     // Lint
     "editor.inlineSuggest.enabled": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "python.languageServer": "Pylance",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     // Format 
     "python.formatting.provider": "autopep8",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python",
+        "editor.defaultFormatter": "ms-python.python"
     },
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
@@ -56,14 +56,14 @@
     "editor.fontFamily": "Delugia",
     "editor.fontLigatures": true,
     // Appearance
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.cursorSurroundingLines": 105,
+    "editor.guides.bracketPairs": "active",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
     "workbench.colorTheme": "Gruvbox Material Dark",
     "workbench.iconTheme": "vscode-icons",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.cursorSurroundingLines": 105,
-    "editor.lineNumbers": "relative",
-    "editor.cursorStyle": "block",
-    "editor.cursorBlinking": "solid",
-    "workbench.startupEditor": "none",
-    "editor.minimap.enabled": false
+    "workbench.startupEditor": "none"
 }
