@@ -95,22 +95,22 @@
     },
     {
         "key": "alt+pageup",
-        "command": "workbench.action.increaseViewWidth",
+        "command": "workbench.action.increaseViewWidth"
     },
     {
         "key": "alt+pagedown",
-        "command": "workbench.action.decreaseViewWidth",
+        "command": "workbench.action.decreaseViewWidth"
     },
     {
         "key": "ctrl+alt+pageup",
-        "command": "workbench.action.increaseViewHeight",
+        "command": "workbench.action.increaseViewHeight"
     },
     {
         "key": "ctrl+alt+pagedown",
-        "command": "workbench.action.decreaseViewHeight",
+        "command": "workbench.action.decreaseViewHeight"
     },
     {
         "key": "ctrl+m",
-        "command": "editor.action.toggleMinimap",
+        "command": "editor.action.toggleMinimap"
     }
 ]
