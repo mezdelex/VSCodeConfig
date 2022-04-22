@@ -1,6 +1,6 @@
 {
     // Lint
-    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.enabled": false,
     "editor.suggestSelection": "first",
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
@@ -56,12 +56,14 @@
     "editor.fontFamily": "Delugia",
     "editor.fontLigatures": true,
     // Appearance
+    "editor.autoClosingBrackets": "never",
     "editor.bracketPairColorization.enabled": true,
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
     "editor.cursorSurroundingLines": 105,
     "editor.guides.bracketPairs": "active",
     "editor.lineNumbers": "relative",
+    "editor.matchBrackets": "near",
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.visible": false,
