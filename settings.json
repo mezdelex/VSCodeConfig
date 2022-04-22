@@ -51,6 +51,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     // Dialog
     "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
     "vsicons.dontShowNewVersionMessage": true,
     // Font
