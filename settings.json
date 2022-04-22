@@ -51,23 +51,25 @@
     "security.workspace.trust.untrustedFiles": "open",
     // Dialog
     "explorer.confirmDelete": false,
+    "liveServer.settings.donotVerifyTags": true,
     "vsicons.dontShowNewVersionMessage": true,
     // Font
     "editor.fontFamily": "Delugia",
     "editor.fontLigatures": true,
-    // Appearance
+    // Behaviour
     "editor.autoClosingBrackets": "never",
+    "editor.cursorSurroundingLines": 105,
+    "editor.matchBrackets": "near",
+    "workbench.startupEditor": "none",
+    // Appearance
     "editor.bracketPairColorization.enabled": true,
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
-    "editor.cursorSurroundingLines": 105,
     "editor.guides.bracketPairs": "active",
     "editor.lineNumbers": "relative",
-    "editor.matchBrackets": "near",
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Gruvbox Material Dark",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "none"
+    "workbench.iconTheme": "vscode-icons"
 }
