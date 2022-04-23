@@ -58,7 +58,7 @@
     "editor.fontFamily": "Delugia",
     "editor.fontLigatures": true,
     // Behaviour
-    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingBrackets": "beforeWhitespace",
     "editor.cursorSurroundingLines": 105,
     "editor.matchBrackets": "near",
     "workbench.startupEditor": "none",
