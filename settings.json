@@ -1,7 +1,13 @@
 {
-    // Lint
+    // Linting
     "editor.inlineSuggest.enabled": false,
     "editor.suggestSelection": "first",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
@@ -68,9 +74,9 @@
     "editor.cursorStyle": "block",
     "editor.guides.bracketPairs": "active",
     "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": false,
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Gruvbox Material Dark",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false
 }
