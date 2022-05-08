@@ -20,6 +20,9 @@
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
     "[html]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
