@@ -38,11 +38,14 @@
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "[jquery]": {
+    "[javascriptreact]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
     "[vue]": {
         "editor.defaultFormatter": "octref.vetur"
+    },
+    "[jquery]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
     },
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
