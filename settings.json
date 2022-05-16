@@ -39,7 +39,7 @@
         "editor.defaultFormatter": "HookyQR.beautify"
     },
     "[javascriptreact]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[vue]": {
         "editor.defaultFormatter": "octref.vetur"
