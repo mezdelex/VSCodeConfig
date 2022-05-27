@@ -8,6 +8,7 @@
         "plaintext": true,
         "markdown": true
     },
+    "omnisharp.enableImportCompletion": true,
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
