@@ -1,13 +1,7 @@
 {
     // Linting
-    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.enabled": true,
     "editor.suggestSelection": "first",
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": true,
-        "plaintext": true,
-        "markdown": true
-    },
     "omnisharp.enableImportCompletion": true,
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
@@ -49,7 +43,7 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
+        "editor.defaultFormatter": "Vue.volar"
     },
     "[jquery]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -72,7 +66,6 @@
     "explorer.confirmDelete": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
-    "vsicons.dontShowNewVersionMessage": true,
     // Font
     "editor.fontFamily": "Delugia",
     "editor.fontLigatures": true,
@@ -91,6 +84,5 @@
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Gruvbox Material Dark",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.colorTheme": "Gruvbox Material Dark"
 }
