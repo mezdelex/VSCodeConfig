@@ -96,5 +96,6 @@
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Gruvbox Material Dark"
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.iconTheme": "vscode-icons"
 }
