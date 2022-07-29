@@ -1,6 +1,6 @@
 {
     // Linting
-    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.enabled": false,
     "editor.suggestSelection": "first",
     "omnisharp.enableImportCompletion": true,
     "python.languageServer": "Pylance",
@@ -43,7 +43,7 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
+        "editor.defaultFormatter": "octref.vetur"
     },
     "[jquery]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -57,6 +57,16 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "off"
+        }
+    },
     // Terminal
     "powershell.integratedConsole.showOnStartup": false,
     "terminal.external.windowsExec": "wt",
@@ -66,6 +76,7 @@
     "explorer.confirmDelete": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
+    "vsicons.dontShowNewVersionMessage": true,
     // Font
     "editor.fontFamily": "Delugia",
     "editor.fontLigatures": true,
@@ -84,6 +95,5 @@
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Gruvbox Material Dark",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.colorTheme": "Gruvbox Material Dark"
 }
