@@ -68,6 +68,9 @@
         "editor.unicodeHighlight.invisibleCharacters": false,
         "editor.wordWrap": "on"
     },
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
+    },
     // Terminal
     "powershell.integratedConsole.showOnStartup": false,
     "terminal.external.windowsExec": "wt",
